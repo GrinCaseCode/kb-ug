@@ -1522,6 +1522,7 @@
     .menu-mobile,
     .menu-overlay,
     .footer__title i,
+    .footer__content,
     .show-mob {
         display: none !important;
     }
