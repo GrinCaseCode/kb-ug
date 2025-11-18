@@ -263,6 +263,7 @@
         width: 48px;
         height: 48px;
     }
+    .socials-list a svg,
     .socials-list a img {
         width: 17px;
     }
@@ -552,6 +553,7 @@
         width: 41px;
         height: 41px;
     }
+    .socials-list a svg,
     .socials-list a img {
         width: 15px;
     }
@@ -842,6 +844,7 @@
         width: 36px;
         height: 36px;
     }
+    .socials-list a svg,
     .socials-list a img {
         width: 13px;
     }
@@ -1132,6 +1135,7 @@
         width: 29px;
         height: 29px;
     }
+    .socials-list a svg,
     .socials-list a img {
         width: 11px;
     }
@@ -1392,6 +1396,7 @@
         width: 45px;
         height: 45px;
     }
+    .socials-list a svg,
     .socials-list a img {
         width: 18px;
     }
@@ -1522,9 +1527,11 @@
     .menu-mobile,
     .menu-overlay,
     .footer__title i,
-    .footer__content,
     .show-mob {
         display: none !important;
+    }
+    .footer__content {
+        display: block !important;
     }
 }
 
@@ -1575,6 +1582,12 @@
     .item-service:hover .item-service__image {
         opacity: 1;
     }
+    .socials-list a:hover {
+        border-color: #DA1717;
+    }
+    .socials-list a:hover path {
+        fill: #DA1717;
+    }
 }
 
 /*mobile hovers*/
@@ -1601,5 +1614,11 @@
     }
     .item-service:active .item-service__image {
         opacity: 1;
+    }
+    .socials-list a:active {
+        border-color: #DA1717;
+    }
+    .socials-list a:active path {
+        fill: #DA1717;
     }
 }

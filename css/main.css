@@ -655,9 +655,13 @@ font-family: 'Unbounded';
 	flex: none;
 	border: 1px solid #fff;
 }
+.socials-list a svg,
 .socials-list a img {
 	width: 20px;
 	height: auto;
+}
+.socials-list path {
+	transition: all 0.3s;
 }
 .footer .socials-list {
 	margin-top: 22px;
