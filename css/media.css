@@ -2391,6 +2391,9 @@
     .row.row--contacts {
         margin-bottom: -25px;
     }
+    .page-contacts .form-page {
+        margin-top: 22px;
+    }
     .form-page {
         padding: 25px 20px;
     }
