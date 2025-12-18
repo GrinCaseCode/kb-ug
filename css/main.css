@@ -1064,6 +1064,10 @@ body {
 	margin: 0;
 	color: rgba(0, 0, 0, 0.4);
 }
+.form-page .checkbox a {
+	color: rgba(0, 0, 0, 0.4);
+	border-color: rgba(0, 0, 0, 0.4);
+}
 .form-page .checkbox label input {
 	border-color: rgba(0, 0, 0, 0.4);
 }
