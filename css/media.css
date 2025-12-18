@@ -2356,6 +2356,7 @@
     }
     .consultation {
         margin: 30px 0;
+        padding-bottom: 40px;
         background: #f9f9f6;
     }
     .consultation .title-form {
@@ -2489,6 +2490,23 @@
     .pager {
         height: 40px;
     }
+    .consultation .checkbox {
+        margin-top: 20px;
+        color: #000;
+    }
+    .consultation .checkbox label input {
+        border-color: #000;
+    }
+        .checkbox label {
+        gap: 10px;
+    }
+    .consultation .checkbox label input::before {
+        color: #000;
+    }
+     .consultation .checkbox a {
+        color: #000;
+        border-color: #000;
+     }
 }
 
 @media only screen and (max-width : 768px) {
